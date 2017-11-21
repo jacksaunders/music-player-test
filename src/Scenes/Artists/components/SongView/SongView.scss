@@ -1,0 +1,23 @@
+.SongView {
+  width: 100%;
+  padding: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-spacing: 0;
+}
+
+.SongView .SongView__song td,
+.SongView th {
+  padding: 0.4em 2em 0.4em 1em;
+  border-bottom: 1px solid #424242;
+}
+
+.SongView .SongView__song:hover td {
+  background-color: rgb(217, 15, 90);
+  cursor: pointer;
+}
+
+.SongView .SongView__song td.SongView__length,
+.SongView .SongView__length-title {
+  text-align: right;
+}

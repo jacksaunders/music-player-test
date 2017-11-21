@@ -1,0 +1,19 @@
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 40px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  background-color: darken(#212121, 10);
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0);
+}
+
+.App-header h1 {
+  font-size: 1.62em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,51 @@
+$artist-image-width: 75px;
+
+.ArtistView {
+  width: 100%;
+  padding-top: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.ArtistView .ArtistView__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+
+  padding-bottom: 1em;
+}
+
+.ArtistView .ArtistView__details {
+  h2 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+.ArtistView .ArtistView__image {
+  width: $artist-image-width;
+  height: $artist-image-width;
+  border-radius: $artist-image-width;
+
+  margin-right: 1em;
+
+  img {
+    min-width: 100%;
+    max-width: $artist-image-width;
+    min-height: $artist-image-width;
+    border-radius: $artist-image-width;
+  }
+}
+
+.ArtistView .ArtistView__Albums {
+  text-align: left;
+
+  h3 {
+    font-size: 0.8em;
+    font-weight: normal;
+    opacity: 0.7;
+    text-transform: uppercase;
+  }
+}
