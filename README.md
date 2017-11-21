@@ -21,6 +21,7 @@ This project was bootstrapped with
   which handled the logic to be a bit more obvious.
 * Song data comes from hardcoded data set in `/src/data/songs.json` which i got
   from [here](https://gist.github.com/jasonbaldridge/2668632)
+* Curently only tested in chrome
 
 ### Things i would change if i had more time.
 
@@ -32,3 +33,4 @@ This project was bootstrapped with
 * Currently play time is only calculated with Minutes and seconds. I would add
   the option for hours in case of longer songs as well as control Play / Pause
   via milliseconds to make it more accurate.
+* Browser testing
