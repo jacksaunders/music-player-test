@@ -19,9 +19,12 @@ This project was bootstrapped with
 * All State is manages by React. For speed i have put all functionality into
   `App.js` on the source folder. If i had more time i would likely make a HOC
   which handled the logic to be a bit more obvious.
+* Song data comes from hardcoded data set in `/src/data/songs.json` which i got
+  from [here](https://gist.github.com/jasonbaldridge/2668632)
 
-### things i would change if i had more time.
+### Things i would change if i had more time.
 
+* Ability to actually play song
 * Spent most of the time on the JS, if i had more time i would make the SASS
   more extendable and utalise variables and mixins more for future development.
 * Would make it responsive, currently just a desktop player but would benefit
