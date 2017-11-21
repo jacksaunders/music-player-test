@@ -4,12 +4,22 @@
   padding-left: 1em;
   padding-right: 1em;
   border-spacing: 0;
+
+  @media (max-width: 767px) {
+    padding-left: 0;
+  }
 }
 
 .SongView .SongView__song td,
 .SongView th {
   padding: 0.4em 2em 0.4em 1em;
   border-bottom: 1px solid #424242;
+}
+
+.SongView th {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  opacity: 0.78;
 }
 
 .SongView .SongView__song:hover td {

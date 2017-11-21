@@ -23,6 +23,10 @@
 }
 
 .PlayBar .PlayBar__controls {
+  @media (max-width: 767px) {
+    margin-left: auto;
+    margin-right: 1em;
+  }
 }
 
 .PlayBar .PlayBar__song-info {
@@ -35,6 +39,10 @@
   line-height: 1.6em;
   font-weight: lighter;
   font-size: 0.9em;
+
+  @media (max-width: 767px) {
+    max-width: calc(100vw - 50px);
+  }
 }
 
 .PlayBar .PlayBar__artist {
