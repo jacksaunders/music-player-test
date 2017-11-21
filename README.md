@@ -28,8 +28,6 @@ This project was bootstrapped with
 * Ability to actually play song
 * Spent most of the time on the JS, if i had more time i would make the SASS
   more extendable and utalise variables and mixins more for future development.
-* Would make it responsive, currently just a desktop player but would benefit
-  from working on mobiles too for not too much effort.
 * Currently play time is only calculated with Minutes and seconds. I would add
   the option for hours in case of longer songs as well as control Play / Pause
   via milliseconds to make it more accurate.
